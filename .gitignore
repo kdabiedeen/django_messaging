@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.pyo
+
+# Environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+dump.rdb
+media/
+staticfiles/
+local_settings.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Migrations (optional: keep initial ones)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+# Uncomment to ignore all migrations (not recommended for teams)
+# */migrations/*.py
+
+# Coverage / test output
+htmlcov/
+.coverage
+coverage.xml
+.tox/
+.nox/
+.pytest_cache/
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
